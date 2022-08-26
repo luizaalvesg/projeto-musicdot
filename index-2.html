@@ -10,26 +10,105 @@
     600,700,&display=block">
     <link rel="stylesheet" href="arquivos/css/cabecalho.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="rodape.css">
 </head>
 <body>
     <header >
         <div class="cabecalho">
-            <img src="arquivos/img/musicdot-logo-light.svg" title="Ir para pagina inicial da MusicDot" alt="MusicDot"
-            ></img>
+            <img 	class="cabecalho__logo" src="arquivos/img/musicdot-logo-light.svg"
+             title="Ir para pagina inicial da MusicDot" alt="MusicDot"></img>
             <nav class="barra__opcoes">
-                <div class="barra__opcoes-topicos">
-                    <small><a href="index.html#contato" >CONTATO</a></small>
-                    <small><a href="#">ENTRAR</a></small>
-                    <small><a href="#">MATRICULE-SE</a></small>
-                </div>
+                <ul	class="cabecalho__menu">
+                    <li	class="cabecalho__item-menu"> <a href="index.html#contato">Contato</a> </li>
+                    <li	class="cabecalho__item-menu"> <a href="#">Entrar</a> </li>
+                    <li	class="cabecalho__item-menu cabecalho__item-menu--matricular"> <a href="#">	Matricule-se</a> </li>
+                </ul>
             </nav>
         </div>
     </header>
     <main>
         Conteúdo principal
     </main>
-    <footer>
-        Rodapé
+    <footer class="rodape">
+        <section	class="rodape__secao">
+            <img class="rodape__logo" src="arquivos/img/logo.svg" alt="Logo MusicDot">
+        
+            <p	class="rodape__infos-empresa">
+                Sistemas de Informática S.A
+                <br>
+                CNPJ 05.555.382/0001-33
+                <br>
+                Rua Vergueiro, 3189, 8º andar
+                <br>
+                Telefone (11) 4118-3319
+            </p>
+            
+            <ul class="rodape__lista-midias-sociais">
+                <li class="rodape__item-midias-sociais">
+                    <a href="https://www.facebook.com/musicdotonline"></a>
+                    <img src="arquivos/img/footer-icone-facebook.svg" alt="Acesso ao FaceBook">
+                </li>
+                <li class="rodape__item-midias-sociais">
+                    <a href="https://www.youtube.com/musicdotonline"></a>
+                    <img src="arquivos/img/footer-icone-youtube.svg" alt="Acesso ao Youtube">
+                </li>
+                <li class="rodape__item-midias-sociais">
+                    <a href="https://www.instagram.com/musicdotonline"></a>
+                    <img src="arquivos/img/footer-icone-instagram.svg" alt="Acesso ao Instagram">
+                </li>
+            </ul>
+        </section>
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">Cursos da MusicDot</h2>
+            <nav>
+                <ul>            
+                    <li class="rodape__item-lista"> <a href="#"></a> Cursos de Teclado & Piano</li>
+                
+                    <li class="rodape__item-lista"><a href="#"></a> Cursos de Violão/Guitarra </li>
+    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Baixo</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Bateria</li>
+    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Percussão</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Contato</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de áudio</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Teoria</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de Sopro</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Cursos de cordas</li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="rodape__secao">
+            <h2 class="rodape__titulo">MusicDot</h2>
+            <nav>
+                <ul>
+                    <li class="rodape__item-lista"><a href="#"></a>Apostila</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>E-book</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Login</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Matricule-se</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Perguntas frequentes</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Para escolas</li>
+                    
+                    <li class="rodape__item-lista"><a href="#"></a>Contato</li>
+                </ul>
+            </nav>
+        </section>     
+
+        <section class="rodape__titulo">
+            <h2 class="rodape__titulo">Receba novidades e lançamentos</h2>
+        </section>
     </footer>
 </body>
 </html>

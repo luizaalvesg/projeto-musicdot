@@ -42,7 +42,7 @@ figure img	{
     width: 100%;
 }
 
-figure{
+figure {
     max-width: 100%;
     box-sizing: border-box;
     margin: 30px;
@@ -56,7 +56,7 @@ figcaption{
     margin-top: 10px;
 }
 
-.contato__secao{
+.contato__secao {
     display: inline-block;
 	vertical-align:	top;
 	margin-left: 16px;
@@ -83,22 +83,4 @@ figcaption{
 .contato__info-descricao	{
     margin-left: 10px;
 }
-
-.rodape	{
-    padding: 1.75em 0;
-    font-size: 1.1rem;
-}
-	
-.rodape__logo	{
-    width: 6em;
-}
-	
-.rodape__copyright	{
-    display:	inline;
-    margin-left: 1em;
-}
-
-
-
-
 
